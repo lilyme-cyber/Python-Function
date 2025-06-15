@@ -13,6 +13,11 @@ def get_grade(score):
         return "F"
     else:
         return "Xato! Ball 0 va 100 orasida bo‘lishi kerak."
+    """Ballni aniqlash.
+    Args:
+        score -> foydalanuvchi olgan ball.
+    Returns: A, B, C, D, E va F qaytaradi
+    """
 
 
 score = input("Balingizni kiriting: ")

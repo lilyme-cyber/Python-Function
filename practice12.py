@@ -1,5 +1,16 @@
 def calculate_bmi(weight, height):
     return round(weight / (height ** 2), 2)
+    """
+    BMI (Body Mass Index) ni hisoblaydi.
+
+    Args:
+        weight (float): Og‘irlik (kg)
+        height (float): Bo‘y (metr)
+
+    Returns:
+        float: Hisoblangan BMI qiymati
+    """
+
 
 def bmi_status(bmi):
     if bmi < 18.5:
@@ -8,6 +19,15 @@ def bmi_status(bmi):
         return "Normal"
     else:
         return "Semiz"
+        """
+    BMI asosida vazn holatini aniqlaydi.
+
+    Args:
+        bmi (float): BMI qiymati
+
+    Returns:
+        str: BMI holati — 'Ozg'in', 'Normal', 'Semiz'
+    """
 
 def main():
     weight = float(input("Vazningizni kiriting (kg): "))

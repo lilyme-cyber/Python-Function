@@ -1,8 +1,19 @@
 def c_to_f(celsius):
     return round((celsius * 9/5) + 32, 2)
+    """  Selsiydan Farengeytga o‘tkazadi.
+
+    Args:
+        celsius: Selsiy qiymati
+
+    """
 
 def f_to_c(fahrenheit):
     return round((fahrenheit - 32) * 5/9, 2)
+    """   Farengeyttan Selsiyga o‘tkazadi.
+
+    Args:
+        fahrenheit: Farengeyt qiymati
+    """
 
 def main():
     print("1. Celsius → Fahrenheit")
